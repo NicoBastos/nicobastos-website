@@ -6,7 +6,7 @@ import "../styles/styles.css";
 import classes from "./[slug].module.css";
 export default function MyApp({ Component, pageProps }) {
   return (
-    <React.Fragment className="">
+    <>
       <Head>
         <title>Nico Bastos</title>
       </Head>
@@ -29,6 +29,6 @@ export default function MyApp({ Component, pageProps }) {
         </div>
       </nav>
       <Component {...pageProps} />
-    </React.Fragment>
+    </>
   );
 }

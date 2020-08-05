@@ -3,7 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 import "../styles/notion.css";
 import "../styles/styles.css";
-import classes from "./[slug].module.css";
 export default function MyApp({ Component, pageProps }) {
   return (
     <>

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run buld && npm run export"
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "axios": "^0.19.2",

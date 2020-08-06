@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }) {
       <nav className="flex flex-row notion m-6 text-lg">
         <div className="mr-auto">
           <Link href="/">
-            <a className="text-lg m-5">Nicolas Bastos</a>
+            <a className="text-xl m-5">Nicolas Bastos</a>
           </Link>
         </div>
         <div>

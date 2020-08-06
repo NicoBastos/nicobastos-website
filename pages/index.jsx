@@ -33,7 +33,7 @@ export const getStaticProps = async () => {
 
 const HomePage = ({ blocks, mainPage }) => {
   return (
-    <div className="m-auto lg:max-w-3xl md:max-w-lg flex flex-column ">
+    <div className="m-auto xl:max-w-3xl lg:max-w-3xl md:max-w-lg  flex flex-column ">
       <img
         src="https://i.imgur.com/1aKTwvi.png"
         className="bg-transparent h-32 absolute mt-18 "

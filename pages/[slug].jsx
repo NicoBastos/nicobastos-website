@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Head from "next/head";
 import { NotionRenderer } from "react-notion";
 import axios from "axios";
@@ -13,7 +14,13 @@ export async function getStaticProps(slug) {
   const blocks = await axios
     .get(`https://notion-api.splitbee.io/v1/page/${post.id}`)
     .then((res) => res.data);
-
+  console.log(
+    "blocks!!",
+    // blocks.filter(
+    //   (block) => block.id !== "3c9477e7-6e69-4ba2-a956-529e20b98b81"
+    // )
+    blocks["3c9477e7-6e69-4ba2-a956-529e20b98b81"].value.format
+  );
   return {
     props: {
       blocks,
@@ -24,7 +31,7 @@ export async function getStaticProps(slug) {
 
 const BlogPost = ({ post, blocks }) => {
   if (!post) return null;
-  console.log("img!!", post.img);
+
   return (
     <div className={classes.slug}>
       <Head>

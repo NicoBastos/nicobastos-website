@@ -9,10 +9,10 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <title>Nico Bastos</title>
       </Head>
-      <nav className="flex flex-row notion m-6 border ">
+      <nav className="flex flex-row notion m-6 text-lg">
         <div className="mr-auto">
           <Link href="/">
-            <a className="text-lg sm:text-base m-5">Nicolas Bastos</a>
+            <a className=" m-5">Nicolas Bastos</a>
           </Link>
         </div>
         <div>

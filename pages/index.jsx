@@ -36,7 +36,7 @@ const HomePage = ({ blocks, mainPage }) => {
     <div className="m-auto lg:max-w-3xl md:max-w-lg flex flex-column ">
       <img
         src="https://i.imgur.com/1aKTwvi.png"
-        className="bg-transparent h-32 absolute mt-20 "
+        className="bg-transparent h-32 absolute mt-18 "
       />
       <div className="m-auto mt-32">
         <NotionRenderer blockMap={blocks} />

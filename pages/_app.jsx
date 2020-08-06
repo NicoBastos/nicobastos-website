@@ -7,12 +7,12 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Nico Bastos</title>
+        <title>Nicolas Bastos</title>
       </Head>
       <nav className="flex flex-row notion m-6 text-lg">
         <div className="mr-auto">
           <Link href="/">
-            <a className=" m-5">Nicolas Bastos</a>
+            <a className="text-lg m-5">Nicolas Bastos</a>
           </Link>
         </div>
         <div>

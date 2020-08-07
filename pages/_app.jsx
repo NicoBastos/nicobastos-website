@@ -16,12 +16,12 @@ export default function MyApp({ Component, pageProps }) {
           </Link>
         </div>
         <div>
-          <Link href="/projects">
+          {/* <Link href="/projects">
             <a className="text-lg m-3">Projects</a>
           </Link>
           <Link href="/blog">
             <a className="text-lg m-3">Blog</a>
-          </Link>
+          </Link> */}
           <Link href="contact-me">
             <a className="text-lg m-3">Contact Me</a>
           </Link>
